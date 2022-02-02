@@ -25,42 +25,62 @@
               "angle": 0,
               "id": "366f4803-8ffd-4b7b-83eb-fa6feae79c91",
               "z": 1,
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
+              "threats": [
+                {
+                  "ruleId": "b2a6d40d-d3f8-4750-8e4d-c02cc84b13dc",
+                  "title": "Generic spoofing threat",
+                  "type": "Spoofing",
+                  "modelType": "STRIDE",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "description": "A generic spoofing threat",
+                  "mitigation": "Mitigation or prevention for the threat",
+                  "threatId": "ce64a1d6-adc4-4fd9-9118-6e95036126f8"
+                },
+                {
+                  "ruleId": "87bc37e2-798e-4d68-bb96-feb1da26da48",
+                  "title": "Generic repudiation threat",
+                  "type": "Repudiation",
+                  "modelType": "STRIDE",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "description": "A generic repudiation threat",
+                  "mitigation": "Mitigation or prevention for the threat",
+                  "threatId": "ca0e5384-6dc3-451d-911e-3009ebf44cb2"
+                },
+                {
+                  "ruleId": "b2a6d40d-d3f8-4750-8e4d-c02cc84b13dc",
+                  "title": "Generic spoofing threat",
+                  "type": "Spoofing",
+                  "modelType": "STRIDE",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "description": "A generic spoofing threat",
+                  "mitigation": "Mitigation or prevention for the threat",
+                  "threatId": "47f92643-8947-464a-90d5-cec2d81ef44f"
+                },
+                {
+                  "ruleId": "87bc37e2-798e-4d68-bb96-feb1da26da48",
+                  "title": "Generic repudiation threat",
+                  "type": "Repudiation",
+                  "modelType": "STRIDE",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "description": "A generic repudiation threat",
+                  "mitigation": "Mitigation or prevention for the threat",
+                  "threatId": "556ed617-9909-48a8-87d4-727e51186455"
+                }
+              ],
               "attrs": {
                 ".element-shape": {
-                  "class": "element-shape hasNoOpenThreats isInScope"
+                  "class": "element-shape hasOpenThreats isInScope"
                 },
                 "text": {
                   "text": "User"
                 },
                 ".element-text": {
-                  "class": "element-text hasNoOpenThreats isInScope"
-                }
-              }
-            },
-            {
-              "type": "tm.Actor",
-              "size": {
-                "width": 160,
-                "height": 80
-              },
-              "position": {
-                "x": 1,
-                "y": 352
-              },
-              "angle": 0,
-              "id": "f9f5fde3-5011-4afe-bbc2-97819d2686ec",
-              "z": 2,
-              "hasOpenThreats": false,
-              "attrs": {
-                ".element-shape": {
-                  "class": "element-shape hasNoOpenThreats isInScope"
-                },
-                "text": {
-                  "text": "Developer"
-                },
-                ".element-text": {
-                  "class": "element-text hasNoOpenThreats isInScope"
+                  "class": "element-text hasOpenThreats isInScope"
                 }
               }
             },
@@ -542,7 +562,7 @@
                   "class": "element-shape hasNoOpenThreats isInScope"
                 },
                 "text": {
-                  "text": "ArtifactoryDB"
+                  "text": "Artifactory DB"
                 },
                 ".element-text": {
                   "class": "element-text hasNoOpenThreats isInScope"
@@ -572,12 +592,12 @@
               "labels": [
                 {
                   "position": {
-                    "distance": 0.6037976803984609,
-                    "offset": -24.54073885684855
+                    "distance": 0.44890094065615754,
+                    "offset": -23.39278663521694
                   },
                   "attrs": {
                     "text": {
-                      "text": "Analyses Packages",
+                      "text": "Build Scan Report",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -642,84 +662,6 @@
               }
             },
             {
-              "type": "tm.Store",
-              "size": {
-                "width": 160,
-                "height": 80
-              },
-              "position": {
-                "x": 1152,
-                "y": 303
-              },
-              "angle": 0,
-              "id": "7ba16df8-dbdf-4bf5-9942-2c7e9bb849bb",
-              "z": 20,
-              "hasOpenThreats": false,
-              "attrs": {
-                ".element-shape": {
-                  "class": "element-shape hasNoOpenThreats isInScope"
-                },
-                "text": {
-                  "text": "Artefactory Info"
-                },
-                ".element-text": {
-                  "class": "element-text hasNoOpenThreats isInScope"
-                }
-              }
-            },
-            {
-              "type": "tm.Process",
-              "size": {
-                "width": 100,
-                "height": 100
-              },
-              "position": {
-                "x": 1002,
-                "y": 66
-              },
-              "angle": 0,
-              "id": "04ede531-76d8-49f8-8c08-1c3bdcf91462",
-              "z": 21,
-              "hasOpenThreats": false,
-              "attrs": {
-                ".element-shape": {
-                  "class": "element-shape hasNoOpenThreats isInScope"
-                },
-                "text": {
-                  "text": "Xray DB"
-                },
-                ".element-text": {
-                  "class": "element-text hasNoOpenThreats isInScope"
-                }
-              }
-            },
-            {
-              "type": "tm.Store",
-              "size": {
-                "width": 160,
-                "height": 80
-              },
-              "position": {
-                "x": 1161,
-                "y": 140
-              },
-              "angle": 0,
-              "id": "3eb16b31-9535-46a5-9be5-cd99228e4689",
-              "z": 22,
-              "hasOpenThreats": false,
-              "attrs": {
-                ".element-shape": {
-                  "class": "element-shape hasNoOpenThreats isInScope"
-                },
-                "text": {
-                  "text": "Analysis Results"
-                },
-                ".element-text": {
-                  "class": "element-text hasNoOpenThreats isInScope"
-                }
-              }
-            },
-            {
               "type": "tm.Flow",
               "size": {
                 "width": 10,
@@ -742,8 +684,8 @@
               "labels": [
                 {
                   "position": {
-                    "distance": 0.6336075069751732,
-                    "offset": -18.84831202163088
+                    "distance": 0.575806649686426,
+                    "offset": 4.861894432253109
                   },
                   "attrs": {
                     "text": {
@@ -793,7 +735,7 @@
                   },
                   "attrs": {
                     "text": {
-                      "text": "flow 21",
+                      "text": "",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -812,32 +754,6 @@
               }
             },
             {
-              "type": "tm.Process",
-              "size": {
-                "width": 100,
-                "height": 100
-              },
-              "position": {
-                "x": 1029,
-                "y": 203
-              },
-              "angle": 0,
-              "id": "165b8172-7342-40c4-8ee1-d63051b00fc5",
-              "z": 25,
-              "hasOpenThreats": false,
-              "attrs": {
-                ".element-shape": {
-                  "class": "element-shape hasNoOpenThreats isInScope"
-                },
-                "text": {
-                  "text": "RabbitMQ"
-                },
-                ".element-text": {
-                  "class": "element-text hasNoOpenThreats isInScope"
-                }
-              }
-            },
-            {
               "type": "tm.Flow",
               "size": {
                 "width": 10,
@@ -845,19 +761,33 @@
               },
               "smooth": true,
               "source": {
-                "id": "ab6394f0-b10c-4eb1-9c47-daa06b360b33"
+                "x": 943,
+                "y": 152
               },
               "target": {
-                "id": "165b8172-7342-40c4-8ee1-d63051b00fc5"
+                "x": 943,
+                "y": 187
               },
-              "vertices": [],
+              "vertices": [
+                {
+                  "x": 990,
+                  "y": 165
+                },
+                {
+                  "x": 989,
+                  "y": 178
+                }
+              ],
               "id": "87ede185-3fda-46ef-80e6-98f47db48f77",
               "labels": [
                 {
-                  "position": 0.5,
+                  "position": {
+                    "distance": 0.5071767481081062,
+                    "offset": -25.712253887981106
+                  },
                   "attrs": {
                     "text": {
-                      "text": "flow 23",
+                      "text": "Scan",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -874,6 +804,54 @@
                   "class": "connection hasNoOpenThreats isInScope"
                 }
               }
+            },
+            {
+              "type": "tm.Boundary",
+              "size": {
+                "width": 10,
+                "height": 10
+              },
+              "smooth": true,
+              "source": {
+                "x": 746,
+                "y": 34
+              },
+              "target": {
+                "x": 698,
+                "y": 424
+              },
+              "vertices": [
+                {
+                  "x": 610,
+                  "y": 101
+                },
+                {
+                  "x": 578,
+                  "y": 214
+                },
+                {
+                  "x": 613,
+                  "y": 307
+                }
+              ],
+              "id": "b29603a8-68e2-4eae-b690-595e2b2720b8",
+              "z": 27,
+              "labels": [
+                {
+                  "position": {
+                    "distance": 0.2762504789840413,
+                    "offset": -12.024546308075793
+                  },
+                  "attrs": {
+                    "text": {
+                      "text": "AWS Private Subnet",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "attrs": {}
             }
           ]
         },
